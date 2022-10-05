@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="512bf306-a766-46ec-b581-c21aeca23682" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/controllers/NewsController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/newsRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/controllers/UserController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/error/ApiError.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/middleware/ErrorHandlingMiddleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/middleware/authMiddleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/models/models.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routes/userRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/utils/helpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/NewsController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/NewsController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/newsRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/newsRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/backend/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +39,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -38,6 +53,9 @@
       <option name="presentableId" value="Default" />
       <updated>1664898403548</updated>
       <workItem from="1664898404851" duration="1693000" />
+      <workItem from="1664900106446" duration="1536000" />
+      <workItem from="1664954066169" duration="5815000" />
+      <workItem from="1664960329382" duration="1724000" />
     </task>
     <servers />
   </component>
@@ -54,5 +72,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
