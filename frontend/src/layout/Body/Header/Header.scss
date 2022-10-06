@@ -1,0 +1,22 @@
+.header {
+  height: 50px;
+  background: pink;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15px 0px 15px;
+  .left-section {
+
+  }
+  .right-section {
+    .header-user-menu {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .header-login-panel {
+      display: flex;
+      gap: 20px;
+    }
+  }
+}

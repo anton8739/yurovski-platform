@@ -2,21 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="512bf306-a766-46ec-b581-c21aeca23682" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/controllers/UserController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/error/ApiError.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/middleware/ErrorHandlingMiddleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/middleware/authMiddleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/models/models.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/userRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/utils/helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/hooks/useActions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/hooks/useTypedSelector.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layout/Body/Body.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layout/Body/Content/Content.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layout/Body/Header/Header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layout/Body/Header/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layout/Body/Header/components/HeaderUserMenu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layout/Layout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layout/Layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layout/SideBar/SideBar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/models/IUser.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Home/Home.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/News/News.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/News/News.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/News/components/NewsList/NewsCard/NewsCard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/News/components/NewsList/NewsCard/NewsCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/News/components/NewsList/NewsList.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/News/components/NewsList/NewsList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Users/Users.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/router/AppRouter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/router/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store/reducers/allActionCreators.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store/reducers/auth/action-creator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store/reducers/auth/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store/reducers/auth/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store/reducers/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store/reducers/news/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store/reducers/news/types.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/NewsController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/NewsController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/newsRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/newsRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/backend/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,13 +50,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/src/store/reducers/news" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/frontend/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/backend" />
+      <recent name="$PROJECT_DIR$/frontend/src/store/reducers/news" />
+      <recent name="$PROJECT_DIR$/frontend/src" />
+      <recent name="$PROJECT_DIR$/frontend/src/models" />
+      <recent name="$PROJECT_DIR$/frontend/src/store/reducers" />
+      <recent name="$PROJECT_DIR$/frontend/src/store" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -55,7 +75,12 @@
       <workItem from="1664898404851" duration="1693000" />
       <workItem from="1664900106446" duration="1536000" />
       <workItem from="1664954066169" duration="5815000" />
-      <workItem from="1664960329382" duration="1724000" />
+      <workItem from="1664960329382" duration="2282000" />
+      <workItem from="1664983984283" duration="729000" />
+      <workItem from="1664985728820" duration="2602000" />
+      <workItem from="1665038959031" duration="4347000" />
+      <workItem from="1665044210177" duration="7000" />
+      <workItem from="1665069884688" duration="3011000" />
     </task>
     <servers />
   </component>

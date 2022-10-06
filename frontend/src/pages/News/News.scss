@@ -1,0 +1,9 @@
+.page-news {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 15px;
+  .create-news-btn {
+    width: 250px;
+  }
+}
