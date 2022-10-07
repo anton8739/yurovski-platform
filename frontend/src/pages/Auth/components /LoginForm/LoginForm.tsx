@@ -1,9 +1,12 @@
 import {Button, Form, Input} from "antd";
 import {FC} from "react";
 import './LoginForm.scss'
+import {useActions} from "../../../../hooks/useActions";
 const LoginForm:FC = () => {
+    const {login} =useActions()
     const onFinish = (values: any) => {
         console.log('Success:', values);
+        login("anton@gmail.com", "123456")
     };
 
     const onFinishFailed = (errorInfo: any) => {

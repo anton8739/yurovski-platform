@@ -4,7 +4,8 @@ import {useActions} from "../../hooks/useActions";
 import {useTypedSelector} from "../../hooks/useTypedSelector";
 import {useEffect, useState} from "react";
 import {Button, Spin} from "antd";
-import {INews} from "../../store/reducers/news/types";
+import {INews} from "../../models/INews";
+
 
 const News = () => {
     const {getNews, createNews} = useActions();

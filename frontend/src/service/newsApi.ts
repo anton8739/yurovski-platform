@@ -1,6 +1,6 @@
 import axios, {AxiosResponse} from "axios";
-import {INews} from "../store/reducers/news/types";
 import {apiAxios} from "./axiosConfig";
+import {INews} from "../models/INews";
 
 export default class NewsApi {
     static async getNews(): Promise<AxiosResponse<INews[]>> {

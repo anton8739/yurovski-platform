@@ -1,5 +1,5 @@
 import {FC} from "react";
-import {INews} from "../../../../../store/reducers/news/types";
+
 import './NewsCard.scss'
 import {
     DeleteOutlined,
@@ -7,6 +7,7 @@ import {
 } from '@ant-design/icons';
 import {Button, Popconfirm} from "antd";
 import {useActions} from "../../../../../hooks/useActions";
+import {INews} from "../../../../../models/INews";
 
 interface Props {
     news: INews

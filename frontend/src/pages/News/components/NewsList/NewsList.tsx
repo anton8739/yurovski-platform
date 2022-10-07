@@ -2,7 +2,7 @@
 import NewsCard from "./NewsCard/NewsCard";
 import './NewsList.scss'
 import {FC, useEffect} from "react";
-import {INews} from "../../../../store/reducers/news/types";
+import {INews} from "../../../../models/INews";
 interface Props {
     news : INews[]
 }

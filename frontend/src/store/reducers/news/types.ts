@@ -1,3 +1,4 @@
+import {INews} from "../../../models/INews";
 
 export enum NewsActionEnum {
     SET_NEWS = "SET_NEWS",
@@ -13,7 +14,3 @@ export interface SetNewsAction {
 export type NewsAction =
     SetNewsAction
 
-export interface INews {
-    title : string,
-    content:string
-}

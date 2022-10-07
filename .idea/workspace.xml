@@ -2,16 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="512bf306-a766-46ec-b581-c21aeca23682" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Auth/Auth.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Auth/Auth.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Auth/components /ChooseFormToggler/ChooseFormToggler.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Auth/components /ChooseFormToggler/ChooseFormToggler.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Auth/components /LoginForm/LoginForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Auth/components /RegistrationForm/RegistrationForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/models/INews.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/service/authApi.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/layout/Body/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/layout/Body/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/router/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/store/reducers/auth/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/reducers/auth/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Auth/components /LoginForm/LoginForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Auth/components /LoginForm/LoginForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/News/News.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/News/News.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/News/components/NewsList/NewsCard/NewsCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/News/components/NewsList/NewsCard/NewsCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/News/components/NewsList/NewsList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/News/components/NewsList/NewsList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/service/newsApi.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/service/newsApi.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store/reducers/allActionCreators.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/reducers/allActionCreators.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store/reducers/auth/action-creator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/reducers/auth/action-creator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store/reducers/auth/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/reducers/auth/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store/reducers/news/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/reducers/news/types.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +32,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/src/pages/Auth/components /ChooseFormToggler" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/src/pages/Auth/components /RegistrationForm" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/frontend/node_modules/typescript/lib" />
@@ -38,8 +40,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/frontend/src/pages/Auth/components /ChooseFormToggler" />
       <recent name="$PROJECT_DIR$/frontend/src/pages/Auth/components /RegistrationForm" />
+      <recent name="$PROJECT_DIR$/frontend/src/pages/Auth/components /ChooseFormToggler" />
       <recent name="$PROJECT_DIR$/frontend/src/pages/Auth/components /LoginForm" />
       <recent name="$PROJECT_DIR$/frontend/src" />
       <recent name="$PROJECT_DIR$/frontend/src/store/reducers/news" />
@@ -67,7 +69,8 @@
       <workItem from="1665044210177" duration="7000" />
       <workItem from="1665069884688" duration="3011000" />
       <workItem from="1665075316934" duration="5371000" />
-      <workItem from="1665130865539" duration="2320000" />
+      <workItem from="1665130865539" duration="5346000" />
+      <workItem from="1665157000981" duration="2621000" />
     </task>
     <servers />
   </component>
