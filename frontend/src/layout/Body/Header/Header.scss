@@ -6,7 +6,9 @@
   align-items: center;
   padding: 0px 15px 0px 15px;
   .left-section {
-
+      .logo:hover {
+        cursor: pointer;
+      }
   }
   .right-section {
     .header-user-menu {

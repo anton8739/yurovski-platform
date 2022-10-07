@@ -1,0 +1,16 @@
+.choose-form-toggler {
+  display: flex;
+  height: 100%;
+  .toggler-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    &.active {
+      border-bottom: 2px solid royalblue;
+    }
+  }
+  .toggler-item:hover {
+    cursor: pointer;
+  }
+}

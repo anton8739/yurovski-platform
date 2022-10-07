@@ -3,12 +3,19 @@ import {UserOutlined} from '@ant-design/icons';
 import './Header.scss'
 import HeaderUserMenu from "./components/HeaderUserMenu";
 import {useTypedSelector} from "../../../hooks/useTypedSelector";
+import {RouteNames} from "../../../router";
+import {useNavigate} from "react-router-dom";
 
 const Header = () => {
+    const navigate = useNavigate();
     const {isAuth} = useTypedSelector(state => state.auth)
+
+    const openPage = (router:string) => {
+        navigate(router)
+    }
     return (<div className="header">
         <div className="left-section">
-            <div className="logo">
+            <div className="logo" onClick={() => openPage(RouteNames.HOME)}>
                 Yurovski development
             </div>
         </div>
@@ -21,13 +28,9 @@ const Header = () => {
                     </div>
                 </Dropdown>
                 : <div className="header-login-panel">
-                    <Button>
+                    <Button onClick={() => openPage(RouteNames.AUTH)}>
                         Войти
                     </Button>
-                    <Button>
-                        Регистрация
-                    </Button>
-
                 </div>}
         </div>
     </div>)

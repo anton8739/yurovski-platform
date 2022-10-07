@@ -1,0 +1,64 @@
+.auth-page {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+
+  .auth-form-container {
+    width: 600px;
+    height: 600px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, .06);
+    border-radius: 2px 2px 0 0;
+    display: flex;
+    flex-direction: column;
+
+    .auth-form-container-header {
+      height: 50px;
+      border-bottom: 1px solid rgba(0, 0, 0, .06);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .auth-form-container-content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 30px;
+    }
+
+    .auth-form-container-footer {
+      height: 50px;
+      border-top: 1px solid rgba(0, 0, 0, .06);
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .auth-page {
+    justify-content: flex-start;
+    padding: 30px;
+
+    .auth-form-container {
+      box-sizing: border-box;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .auth-page {
+    justify-content: flex-start;
+    padding: 15px;
+
+    .auth-form-container {
+      box-sizing: border-box;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
